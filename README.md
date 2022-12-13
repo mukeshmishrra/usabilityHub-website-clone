@@ -1,8 +1,7 @@
 # usabilityHub-website-clone
 i am creating this project for masteting my html and css and javascript
 
-#some git commands 
-----------------------------------------------------------
+# some git commands 
 git init
 git add README.md
 git commit -m "first commit"
