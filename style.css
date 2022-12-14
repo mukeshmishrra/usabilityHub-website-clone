@@ -125,6 +125,7 @@ a{
 
 .company__logo img {
     width: 200px;
+    cursor: pointer;
 }
 
 .nav__links {
@@ -202,6 +203,10 @@ header {
     text-align: center;
 }
 
+.features__card img {
+    width: 50px;
+}
+
 .features__area {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -277,3 +282,71 @@ header {
     color: #fff;
 }
 
+/* cta section  */
+.cta__section {
+    background-color: #183b54;
+    padding: 80px var(--padding-inline-section) 80px;
+    margin-top: 80px;
+}
+
+.cta__section__container {
+    color: #fff;
+    justify-content: space-between;
+}
+
+.cta__section__container p {
+    color: #b9cde4;
+}
+
+.cta__img img{
+    width: 100%;
+}
+
+.cta__desc {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cta__contents {
+    gap: 50px;
+    color: #b9cde4;
+    
+}
+
+.list__items {
+    margin-block: 20px
+}
+
+/* footer section */
+footer {
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+
+.footer__logo img{
+    width: 200px;
+}
+
+.footer__container {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.link__column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    color: #333;
+}
+
+/* sub footer */
+.sub__footer {
+    background-color: #b9cde4;
+}
+
+.sub__footer__container {
+    flex-direction: row;
+    gap: 20px;
+    padding: var(--padding-inline-section);
+    justify-content: center;
+}
